@@ -1,0 +1,27 @@
+{
+  "name": "sentimental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "type": "module",
+  "scripts": {
+    "dev1": "nodemon -r dotenv/config index.1.mjs",
+    "dev2": "nodemon -r dotenv/config index.2.mjs",
+    "dev3-1": "nodemon -r dotenv/config index.3.server.mjs",
+    "dev3-2": "nodemon -r dotenv/config index.3.client.mjs",
+    "dev4-1": "nodemon -r dotenv/config index.4.server.mjs",
+    "dev4-2": "nodemon -r dotenv/config index.4.client.mjs"
+  },
+  "keywords": [],
+  "author": "Yariv Gilad <yariv.gilad@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@ajar/marker": "^1.3.2",
+    "dotenv": "^8.2.0",
+    "sentiment": "^5.0.2",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
